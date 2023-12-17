@@ -8,8 +8,10 @@ O problema é semelhante com o exemplo dado em sala da pizza. Da mesma forma que
 
 ### Questão 2) Implemente as classes que permitem representar o texto completo, as palavras, respectivas modificações gráficas. Implemente uma aplicação que ilustre o comportamento, representando as características graficas.
 O código dessa questão está disponível em: Lista2_Q2
+E o diagrama de classes pode ser acessado em: Q2_DiagramaDeClasses
 
 ### Questão 3) Faça a implementação de um jogo com um poder básico e mais três poderes que melhoram este poder básico. 
 O sistema pede a implementação de um padrão de projeto que consiga adicionar poderes ao ataque do personagem em tempo de execução, obtendo a flexibilidade de extensão da aplicação sem modificar o código. Por conta das palavras-chave tempo de execução, logo pensei no Decorator, que foi padrão utilizado para implementar o problema proposto.
 Ao final, o código ficou da seguinte forma: um jogador possui um ataque básico com 10 de dano, mas é possível escolher um ou mais poderes para complementar o seu ataque: fogo, água e grama. Cada poder acrescenta, respectivamente, 7, 4 e 3 de dado ao ataque base. Então, antes de usar o ataque de fato, o jogador precisa criar a combinação de ataques desejada (ou escolher usar apenas o ataque base), selecionar o ataque desejado e então realizar o ataque com o método usePower().
 O código está disponível em: Lista2_Q3 
+E o diagrama de classes está disponível em: Q3_DiagramaDeClasses
